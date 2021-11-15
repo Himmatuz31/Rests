@@ -13,7 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.Random;
 /**
  *
- * @author paul.oamen
+ * @author Lenovo
  */
 public class rest_s extends javax.swing.JFrame {
 double firstnum;
@@ -113,7 +113,6 @@ double firstnum;
         jlblCostOfMeal = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1400, 700));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 4));
@@ -513,7 +512,7 @@ double firstnum;
         jtxtConvert.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 4));
 
         jcmbCurrency.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jcmbCurrency.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Choose One...", "USA", "Nigeria", "Kenyan", "Canada", "Brazil", "Indonesia", "Philippine", "India", " " }));
+        jcmbCurrency.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Choose One...", "USA", "Indonesia" }));
         jcmbCurrency.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcmbCurrencyActionPerformed(evt);
@@ -575,7 +574,7 @@ double firstnum;
         });
 
         jCChicBurgerMeal.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jCChicBurgerMeal.setText("Chicken Burger Meal");
+        jCChicBurgerMeal.setText("Spicy chicken Burger");
         jCChicBurgerMeal.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jCChicBurgerMealMouseClicked(evt);
@@ -588,7 +587,7 @@ double firstnum;
         });
 
         jCBCBurger.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jCBCBurger.setText("Bacon and Cheese Burger");
+        jCBCBurger.setText("Spicy Cheese Burger");
         jCBCBurger.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jCBCBurgerMouseClicked(evt);
@@ -639,7 +638,7 @@ double firstnum;
         });
 
         jCmbDrink.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jCmbDrink.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select a drink", "Apple Juice", "Tea", "Cola", "Coke", "Coffee", "Ice Tea", "Ice Coffee", "Orange" }));
+        jCmbDrink.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select a drink", "Apple Juice", "Tea", "Cola", "Coffee", "Ice Tea", "Ice Coffee", "Orange" }));
         jCmbDrink.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCmbDrinkActionPerformed(evt);
@@ -705,8 +704,8 @@ double firstnum;
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 114, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
-        jLabel1.setText("Restaurant Management Systems");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, -1, -1));
+        jLabel1.setText("Restaurant Group 6");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 30, -1, -1));
 
         jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 4));
 
